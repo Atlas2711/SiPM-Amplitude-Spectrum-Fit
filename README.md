@@ -13,7 +13,7 @@ The input files must be csv files with the data already in hsitogram form (binne
 ## Output files
 As output it will generate a csv file with the following columns:
 
-|      "SiPM"      |      "I(nA)"     |      "NoP"      |                 "NoE"                 |        "mu_i"        |    "sigma2_{0}"    |      "w_{0}"     |                "photon_counts"               |
+|      "SiPM"      |      "I(nA)"     |      "NoP"      |                 "NoE"                 |        "mu_i"        |    "sigma2_i"    |      "w_i"     |                "photon_counts"               |
 |:----------------:|:----------------:|:---------------:|:-------------------------------------:|:--------------------:|:------------------:|:----------------:|:--------------------------------------------:|
 | Name of the SiPM | LED current used | Number of Peaks | Number of Events (- Background noise) | Mean value of Peak i | Variance of Peak i | Weight of Peak i | Total number of photons detected by the SiPM |
 
