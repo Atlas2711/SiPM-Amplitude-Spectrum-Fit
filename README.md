@@ -3,6 +3,8 @@
 ## Disclaimer
 I do not guarantee, that the Code will work for all SiPM Amplitude Spectra! As of now it is very simpel and could very probably be improved a lot. Bear in mind, that it was used for a very specific task: measuring photon currents of a LED. Thus, using it for your purposes probably will require some changes to the Code.
 
+The Code itself is loosely based on the PeakOTron python module: https://arxiv.org/abs/2301.11833
+
 ## How to use
 The Program requires a csv as input in the "data" folder with the histogram data of the Amplitude Spectrum you want to fit.
 apart from that it only excepts 5 inputs in the Preamble code: The SiPM name, the first Bin to use for the Fit (must be before 0 pe Peak), The number of Peaks with good resolution (inluding 0 pe) and values for y-min and y-max for the output plots it will generate.
